@@ -4,13 +4,12 @@
 
 [![Medium](https://img.shields.io/badge/Medium-@rajdipch-black?logo=medium&logoColor=white)](https://medium.com/@rajdipch)
 [![Google Cloud Community](https://img.shields.io/badge/Google_Cloud-Community_Author-4285F4?logo=googlecloud&logoColor=white)](https://medium.com/google-cloud)
-[![GitHub Followers](https://img.shields.io/github/followers/Rajdipc?label=Follow&style=social)](https://github.com/Rajdipc)
 
-I design and build **production-grade enterprise AI, Agentic, and BigQuery reference architectures** on Google Cloud — bridging the gap between quick-start notebooks and verifiable, zero-cluster production systems. Every blueprint below ships with end-to-end code, deterministic verification suites, and an accompanying deep-dive engineering publication.
+I design and build **enterprise AI, Agentic, and Data & Analytics reference architectures** — bridging the gap between quick-start notebooks and verifiable, production systems. Every blueprint below ships with end-to-end code, deterministic verification suites, and an accompanying deep-dive engineering publication.
 
 ---
 
-## 🏗️ Featured Google Cloud Production Blueprints
+## 🏗️ Featured Blueprints
 
 | Blueprint & Repository | Focus Area & Key Stack | Companion Technical Deep Dive | 1-Click Launch |
 | :--- | :--- | :--- | :---: |
@@ -26,6 +25,7 @@ I design and build **production-grade enterprise AI, Agentic, and BigQuery refer
 
 ## 🛠️ Core Technical Domains
 
+- **Data & Analytics:** Data Engineering (`Apache Spark`, `Python`, `SQL`) covering *batch based*, *micro batch based*, *real time* scenarios.
 - **Agentic AI & Multimodal Systems:** Google ADK 2.x (`Workflow`, `LlmAgent`, `BasePlugin`, Agent Skills), Gemini Live API (real-time bidirectional audio/video), Gemini 4 Argon / 3.8 Flash, Vertex AI Search grounding, and AI Tokenomics (`TBOM` / `CpO`).
-- **In-Warehouse Data Science & Analytics:** BigQuery ML (`BQML`), BigQuery Augmented Analytics TVFs (`ML.DETECT_CHANGE_POINTS`, `AI.KEY_DRIVERS`, `AI.CAUSAL_EFFECT`), BigQuery Graph (`ISO GQL`), Dataplex Knowledge Catalog, and BigQuery Conversational Analytics.
-- **Serverless Production Engineering:** Cloud Run Services & Jobs, Identity-Aware Proxy (IAP), OpenTelemetry distributed tracing & metrics, Cloud Billing FinOps attribution, and Terraform Infrastructure-as-Code.
+- **In-Warehouse Data Science & Analytics:** BigQuery ML (`BQML`), BigQuery Augmented Analytics TVFs (`ML.DETECT_CHANGE_POINTS`, `AI.KEY_DRIVERS`, `AI.CAUSAL_EFFECT`), BigQuery Graph (`ISO GQL`), Dataplex Knowledge Catalog, and BigQuery, Amazon Redshift,  Conversational Analytics, Amazon Athena, Managed Apache Spark (Dataproc), Amazon EMR, AWS Glue and more.
+- **Serverless Production Engineering:** Cloud Run Services & Jobs, Identity-Aware Proxy (IAP), OpenTelemetry distributed tracing & metrics, Cloud Billing FinOps attribution, Terraform Infrastructure-as-Code, CloudFormation, AWS Lambda.
